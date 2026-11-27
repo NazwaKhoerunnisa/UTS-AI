@@ -41,6 +41,12 @@ Hasil evaluasi pada data pengujian:
 - F1-Score Macro: 97,10%
 - ROC-AUC OVR Macro: 100%
 
+## Laporan UTS
+
+Laporan Ujian Tengah Semester Intelegensi Buatan dapat dilihat melalui tautan berikut:
+
+[📄 Lihat Laporan UTS Intelegensi Buatan (PDF)](./Laporan_UTS_Intelegensi%20Buatan_Nazwa%20Khoerunnisa.pdf)
+
 ### Aplikasi
 Aplikasi dibuat menggunakan Streamlit untuk menerima input fitur anggur dan menampilkan hasil prediksi beserta probabilitas kelas.
 
