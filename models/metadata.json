@@ -1,0 +1,309 @@
+{
+  "nama_model": "SVM (RBF)",
+  "varian_fitur": "tambah_buang",
+  "fitur_mentah": [
+    "alcohol",
+    "malic_acid",
+    "ash",
+    "alcalinity_of_ash",
+    "magnesium",
+    "total_phenols",
+    "flavanoids",
+    "nonflavanoid_phenols",
+    "proanthocyanins",
+    "color_intensity",
+    "hue",
+    "od280_od315_of_diluted_wines",
+    "proline"
+  ],
+  "kelas": [
+    "Kultivar A",
+    "Kultivar B",
+    "Kultivar C"
+  ],
+  "rentang_fitur": {
+    "alcohol": {
+      "min": 11.03,
+      "max": 14.83,
+      "median": 13.01
+    },
+    "malic_acid": {
+      "min": 0.74,
+      "max": 5.8,
+      "median": 1.81
+    },
+    "ash": {
+      "min": 1.36,
+      "max": 3.22,
+      "median": 2.36
+    },
+    "alcalinity_of_ash": {
+      "min": 10.6,
+      "max": 30.0,
+      "median": 19.5
+    },
+    "magnesium": {
+      "min": 70.0,
+      "max": 162.0,
+      "median": 97.0
+    },
+    "total_phenols": {
+      "min": 0.98,
+      "max": 3.88,
+      "median": 2.335
+    },
+    "flavanoids": {
+      "min": 0.34,
+      "max": 3.74,
+      "median": 2.135
+    },
+    "nonflavanoid_phenols": {
+      "min": 0.13,
+      "max": 0.63,
+      "median": 0.34
+    },
+    "proanthocyanins": {
+      "min": 0.42,
+      "max": 3.58,
+      "median": 1.56
+    },
+    "color_intensity": {
+      "min": 1.28,
+      "max": 13.0,
+      "median": 4.64
+    },
+    "hue": {
+      "min": 0.48,
+      "max": 1.71,
+      "median": 0.96
+    },
+    "od280_od315_of_diluted_wines": {
+      "min": 1.27,
+      "max": 3.92,
+      "median": 2.78
+    },
+    "proline": {
+      "min": 278.0,
+      "max": 1515.0,
+      "median": 673.5
+    }
+  },
+  "rata_kelas": {
+    "Kultivar A": {
+      "alcohol": 13.7015,
+      "malic_acid": 2.0634,
+      "ash": 2.457,
+      "alcalinity_of_ash": 17.1468,
+      "magnesium": 106.383,
+      "total_phenols": 2.8215,
+      "flavanoids": 2.9311,
+      "nonflavanoid_phenols": 0.296,
+      "proanthocyanins": 1.8783,
+      "color_intensity": 5.4785,
+      "hue": 1.047,
+      "od280_od315_of_diluted_wines": 3.136,
+      "proline": 1092.3404
+    },
+    "Kultivar B": {
+      "alcohol": 12.2774,
+      "malic_acid": 1.9144,
+      "ash": 2.236,
+      "alcalinity_of_ash": 20.4281,
+      "magnesium": 94.4386,
+      "total_phenols": 2.2195,
+      "flavanoids": 2.0114,
+      "nonflavanoid_phenols": 0.3572,
+      "proanthocyanins": 1.676,
+      "color_intensity": 2.983,
+      "hue": 1.0501,
+      "od280_od315_of_diluted_wines": 2.7679,
+      "proline": 526.2456
+    },
+    "Kultivar C": {
+      "alcohol": 13.1097,
+      "malic_acid": 3.3205,
+      "ash": 2.4442,
+      "alcalinity_of_ash": 21.4868,
+      "magnesium": 99.0789,
+      "total_phenols": 1.6776,
+      "flavanoids": 0.7766,
+      "nonflavanoid_phenols": 0.4439,
+      "proanthocyanins": 1.1426,
+      "color_intensity": 7.395,
+      "hue": 0.6761,
+      "od280_od315_of_diluted_wines": 1.7084,
+      "proline": 622.8947
+    }
+  },
+  "metrik_test": {
+    "akurasi": 0.9722222222222222,
+    "precision_macro": 0.9777777777777779,
+    "recall_macro": 0.9666666666666667,
+    "f1_macro": 0.9709618874773139,
+    "roc_auc_ovr_macro": 1.0
+  },
+  "confusion_matrix": [
+    [
+      12,
+      0,
+      0
+    ],
+    [
+      0,
+      14,
+      0
+    ],
+    [
+      0,
+      1,
+      9
+    ]
+  ],
+  "laporan_klasifikasi": {
+    "Kultivar A": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 12.0
+    },
+    "Kultivar B": {
+      "precision": 0.9333333333333333,
+      "recall": 1.0,
+      "f1-score": 0.9655172413793104,
+      "support": 14.0
+    },
+    "Kultivar C": {
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1-score": 0.9473684210526315,
+      "support": 10.0
+    },
+    "accuracy": 0.9722222222222222,
+    "macro avg": {
+      "precision": 0.9777777777777779,
+      "recall": 0.9666666666666667,
+      "f1-score": 0.9709618874773139,
+      "support": 36.0
+    },
+    "weighted avg": {
+      "precision": 0.974074074074074,
+      "recall": 0.9722222222222222,
+      "f1-score": 0.9719701552732407,
+      "support": 36.0
+    }
+  },
+  "hasil_cv": [
+    {
+      "varian_fitur": "tambah_buang",
+      "model": "SVM (RBF)",
+      "acc_mean": 0.9954,
+      "acc_std": 0.0117,
+      "f1_mean": 0.9959,
+      "f1_std": 0.0105,
+      "jumlah_fitur": 14
+    },
+    {
+      "varian_fitur": "tambah",
+      "model": "SVM (RBF)",
+      "acc_mean": 0.9954,
+      "acc_std": 0.0117,
+      "f1_mean": 0.9959,
+      "f1_std": 0.0105,
+      "jumlah_fitur": 16
+    },
+    {
+      "varian_fitur": "asli",
+      "model": "SVM (RBF)",
+      "acc_mean": 0.9884,
+      "acc_std": 0.0207,
+      "f1_mean": 0.9886,
+      "f1_std": 0.0203,
+      "jumlah_fitur": 13
+    },
+    {
+      "varian_fitur": "tambah_buang",
+      "model": "Logistic Regression",
+      "acc_mean": 0.9882,
+      "acc_std": 0.0212,
+      "f1_mean": 0.9883,
+      "f1_std": 0.021,
+      "jumlah_fitur": 14
+    },
+    {
+      "varian_fitur": "tambah",
+      "model": "Logistic Regression",
+      "acc_mean": 0.9835,
+      "acc_std": 0.0219,
+      "f1_mean": 0.9836,
+      "f1_std": 0.0218,
+      "jumlah_fitur": 16
+    },
+    {
+      "varian_fitur": "tambah_buang",
+      "model": "Random Forest",
+      "acc_mean": 0.9814,
+      "acc_std": 0.0279,
+      "f1_mean": 0.9828,
+      "f1_std": 0.0258,
+      "jumlah_fitur": 14
+    },
+    {
+      "varian_fitur": "asli",
+      "model": "Logistic Regression",
+      "acc_mean": 0.9813,
+      "acc_std": 0.0216,
+      "f1_mean": 0.9815,
+      "f1_std": 0.0214,
+      "jumlah_fitur": 13
+    },
+    {
+      "varian_fitur": "asli",
+      "model": "Random Forest",
+      "acc_mean": 0.9812,
+      "acc_std": 0.0253,
+      "f1_mean": 0.9812,
+      "f1_std": 0.0254,
+      "jumlah_fitur": 13
+    },
+    {
+      "varian_fitur": "tambah",
+      "model": "Random Forest",
+      "acc_mean": 0.9766,
+      "acc_std": 0.0245,
+      "f1_mean": 0.9767,
+      "f1_std": 0.0247,
+      "jumlah_fitur": 16
+    },
+    {
+      "varian_fitur": "tambah",
+      "model": "KNN",
+      "acc_mean": 0.974,
+      "acc_std": 0.0242,
+      "f1_mean": 0.9754,
+      "f1_std": 0.0235,
+      "jumlah_fitur": 16
+    },
+    {
+      "varian_fitur": "tambah_buang",
+      "model": "KNN",
+      "acc_mean": 0.9644,
+      "acc_std": 0.0319,
+      "f1_mean": 0.9661,
+      "f1_std": 0.0304,
+      "jumlah_fitur": 14
+    },
+    {
+      "varian_fitur": "asli",
+      "model": "KNN",
+      "acc_mean": 0.9508,
+      "acc_std": 0.044,
+      "f1_mean": 0.9508,
+      "f1_std": 0.0449,
+      "jumlah_fitur": 13
+    }
+  ],
+  "jumlah_train": 142,
+  "jumlah_test": 36,
+  "seed": 42,
+  "versi_sklearn": "1.6.1"
+}
