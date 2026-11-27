@@ -1,9 +1,9 @@
 # UTS Intelegensi Buatan
 ## Klasifikasi Kultivar Anggur (Kasus 1)
 
-## Nama : Nazwa Khoerunnisa
-## Kelas : TIF RP 23B
-## NIM: 23552011093
+# Nama : Nazwa Khoerunnisa
+# Kelas : TIF RP 23B
+# NIM: 23552011093
 
 Repository ini berisi hasil pengerjaan Ujian Tengah Semester mata kuliah Intelegensi Buatan dengan topik klasifikasi kultivar anggur menggunakan Machine Learning.
 
